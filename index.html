@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Binario y Hexadecimal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Conversor Binario y Hexadecimal</h1>
+        <div class="convertidor">
+            <label for="entradaNumero">Ingresa un número:</label>
+            <input type="number" id="entradaNumero" placeholder="Ejemplo: 42">
+            
+            <label for="tipoConversion">Elige la conversion que quieres realizar</label>
+            <select id="tipoConversion">
+                <option value="aBinario">A binario</option>
+                <option value="aHexadecimal">A hexadecimal</option>
+                <option value="deBinario">De binario a número</option>
+                <option value="deHexadecimal">De hexadecimal a número</option>
+            </select>
+            
+            <button id="botonConvertir">Convertir</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
